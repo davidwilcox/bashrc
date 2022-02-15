@@ -31,6 +31,8 @@ export JAVA_HOME=/usr/local/Cellar/openjdk\@11/11.0.12
 source ~/escripts/functions.bashrc.sh
 alias stage="xad-k8s-namespace-switch stage"
 alias prod="xad-k8s-namespace-switch prod"
+alias emea="xad-k8s-namespace-switch emea"
+alias spillover="kubectl config use-context spillover"
 alias backfill="xad-k8s-namespace-switch backfill"
 
 export EDITOR='emacs'
@@ -40,3 +42,5 @@ export GIT_COMMITTER_NAME="David Wilcox"
 
 export GIT_AUTHOR_EMAIL="dawilcox@adobe.com"
 export GIT_AUTHOR_NAME="David Wilcox"
+
+PATH=$PATH:/Users/dawilcox/Library/Python/3.8/bin
