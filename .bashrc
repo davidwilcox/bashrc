@@ -32,6 +32,7 @@ source ~/escripts/functions.bashrc.sh
 alias stage="xad-k8s-namespace-switch stage"
 alias prod="xad-k8s-namespace-switch prod"
 alias emea="xad-k8s-namespace-switch emea"
+alias apac="xad-k8s-namespace-switch apac"
 alias spillover="kubectl config use-context spillover"
 alias backfill="xad-k8s-namespace-switch backfill"
 
